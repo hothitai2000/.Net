@@ -1,0 +1,11 @@
+C:\Users\Tai Xoan\source\repos\ASPNET_Logintai\Model\bin\Debug\Model.dll.config
+C:\Users\Tai Xoan\source\repos\ASPNET_Logintai\Model\bin\Debug\Model.dll
+C:\Users\Tai Xoan\source\repos\ASPNET_Logintai\Model\bin\Debug\Model.pdb
+C:\Users\Tai Xoan\source\repos\ASPNET_Logintai\Model\bin\Debug\EntityFramework.dll
+C:\Users\Tai Xoan\source\repos\ASPNET_Logintai\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tai Xoan\source\repos\ASPNET_Logintai\Model\bin\Debug\EntityFramework.xml
+C:\Users\Tai Xoan\source\repos\ASPNET_Logintai\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tai Xoan\source\repos\ASPNET_Logintai\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Tai Xoan\source\repos\ASPNET_Logintai\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\Tai Xoan\source\repos\ASPNET_Logintai\Model\obj\Debug\Model.dll
+C:\Users\Tai Xoan\source\repos\ASPNET_Logintai\Model\obj\Debug\Model.pdb

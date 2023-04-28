@@ -1,0 +1,42 @@
+﻿@model List<Model.Framework.tbl_products>
+    @{
+        ViewBag.Title = "Index";
+        Layout = "~/Views/Shared/FrontEndLayout.cshtml";
+    }
+<table id="datatablesSimple"
+       class="dataTable-table">
+    <thead>
+        <tr>
+            <th style="background-color: aquamarine; text-align: center; width: 100px;font-size:50px ">ID</th>
+
+            <th style="background-color: aquamarine; text-align: center; width: 100px; font-size: 30px ">Name</th>
+
+            <th style="background-color: aquamarine; text-align: center; width: 100px; font-size: 30px ">Price</th>
+
+            <th style="background-color: aquamarine; text-align: center; width: 100px; font-size: 30px ">Detail</th>
+
+            <th style="background-color: aquamarine; text-align: center; width: 100px; font-size: 30px ">Images</th>
+
+            <th style="font-size:30px">Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <th style="text-align: center; width: 100px; font-size: 20px ">@item.ID</th>
+            <th style="text-align: center; width: 100px; font-size: 20px ">@item.Name</th>
+            <th style="text-align: center; width: 100px; font-size: 20px ">@item.Price</th>
+            <th style="text-align: center; width: 100px; font-size: 20px ">@item.Detail</th>
+            <th style="text-align: center; width: 100px; font-size: 20px "><img src="~/Tainguyen/image/@item.Images" height="200" width="200" /></th>
+            <th>
+                <a style="font-size:20px" href="/Products/Edit/@item.ID">Sửa</a>
+                <a style="font-size:20px" href="/Products/Delete/@item.ID">Xóa</a>
+                <a style="font-size:20px" href="/Products/Create/@item.ID">thêm</a>
+            </th>
+</tr>
+
+        }
+
+    </tbody>
+</table>
